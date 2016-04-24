@@ -19,7 +19,7 @@ For comparison, we also included three semi-supervised (transductive) learning a
 * Laplacian ridge regression (LapRR)
 * Transducive SVM (TSVM)
 
-The PCA and kernel PCA algorithm can also be a baseline method. So, there are 10 algorithms in this toolbox. Among them, TCA, MIDA, SA, (kernel) PCA, and LapRR are self-implemented. ITL, GFK, SSA, LapSVM, and TSVM are wrappers of existing toolboxes. These toolboxes are included in the download, except SSA, which is too big. The interfaces of the functions have been unified for convenience. We hope the work can be helpful for domain adaptation / transfer learning researchers.
+The PCA and kernel PCA algorithm can also be a baseline method. So, there are 10 algorithms in this toolbox. Among them, TCA, MIDA, SA, (kernel) PCA, and LapRR are self-implemented. ITL, GFK, SSA, LapSVM, and TSVM are wrappers of existing toolboxes. These toolboxes are included in the project, except SSA, which is too big and can be downloaded from the link provided below. The interfaces of the functions have been unified for convenience. We hope the work can be helpful for domain adaptation / transfer learning researchers.
 
 Dependencies:
 
