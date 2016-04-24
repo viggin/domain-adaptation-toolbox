@@ -2,7 +2,11 @@
 
 Wrappers and implementions of several domain adaptation / transfer learning / semi-supervised learning algorithms, in matlab.
 
-Please find sample codes in showSimExp.m.
+Please find sample usages in showSimExp.m.
+
+![discrete domains](synthetic dataset discrete.tif)
+
+![continuous distribution change](synthetic dataset continuous.tif)
 
 The domain adaptation algorithms include:
 
