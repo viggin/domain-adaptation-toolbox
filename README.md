@@ -4,7 +4,7 @@ Wrappers and implementions of several domain adaptation / transfer learning / se
 
 Please find sample usages in showSimExp.m.
 
-![discrete domains](synthetic dataset discrete.tif)
+![discrete domains](synthetic dataset discrete.jpg)
 
 ![continuous distribution change](synthetic dataset continuous.tif)
 
