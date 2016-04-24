@@ -31,12 +31,14 @@ function [ftAllNew,transMdl] = ftTrans_gfk(ftAll,maSrc,target,maLabeled,param)
 % convenient to use, so we instead decompose the kernel to a projection 
 % matrix L which is similar to ref 2.
 % 
-% The GFK code can be obtained from http://www-scf.usc.edu/~boqinggo/
+%	The GFK code can be obtained from http://www-scf.usc.edu/~boqinggo/
 % ref 1: B. Gong, Y. Shi, F. Sha, and K. Grauman, "Geodesic flow kernel
 % for unsupervised domain adaptation," in CVPR, 2012.
 % 2: B. Gong, K. Grauman, and F. Sha, "Learning kernels for unsupervised
 % domain adaptation with applications to visual object recognition", in
 % IJCV, 2014
+%	The plslda toolbox is needed if using PLS subspace, 
+% http://www.mathworks.com/matlabcentral/fileexchange/47767-libpls-1-95-zip/
 % 
 %	Copyright 2016 Lu KOU, PolyU HK; Ke YAN, Tsinghua Univ. 
 % http://yanke23.com , xjed09@gmail.com
@@ -66,7 +68,7 @@ ftTar = ftAll(~maSrc,:);
 if ~bSup
 	Ps = pca(ftSrc);  % source subspace
 else
-	addpath F:\YanKe\samples\PLS\plslda
+	addpath plslda
 	model = pls_basis(ftSrc,target,min(size(ftSrc)),'none');
 	Ps = model.weight;
 end

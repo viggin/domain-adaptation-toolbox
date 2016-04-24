@@ -29,6 +29,7 @@ Dependencies:
 
 1. ITL: I downloaded it from somewhere I can't find it now.
 1. GFK: [http://www-scf.usc.edu/~boqinggo/]()
+1. GFK: plslda, [http://www.mathworks.com/matlabcentral/fileexchange/47767-libpls-1-95-zip/]()
 1. SSA: [http://mloss.org/revision/download/851/]()
 1. LapSVM: [https://github.com/tknandu/LapTwinSVM/tree/master/Primal_LapSVM/lapsvmp_v02]()
 1. TSVM: [http://svmlight.joachims.org/]() and [https://github.com/sods/svml]()
