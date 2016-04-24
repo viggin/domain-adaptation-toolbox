@@ -139,7 +139,7 @@ else % SMIDA
 	A = Kx*(H*(-Kd+gamma*Kyy_tilde)*H+mu*H)*Kx;
 end
 
-A=(A+A')/2; % to compensate float num error
+A = (A+A')/2; % to compensate float num error
 [V,D] = eig(A);
 [D,I] = sort(diag(real(D)),'descend');
 transMdl.W = real(V(:,I(1:m)));

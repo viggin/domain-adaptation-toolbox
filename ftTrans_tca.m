@@ -127,7 +127,6 @@ end
 
 maBad = isnan(A)|isinf(A);
 if any(any(maBad)), A(maBad)=0; end
-A=(A+A')/2; % to compensate float num error and accelerate eig
 [V,D] = eig(A);
 [D,I] = sort(diag(D),'descend');
 transMdl.W = real(V(:,I(1:m)));
