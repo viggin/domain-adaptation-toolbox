@@ -93,6 +93,7 @@ set(gcf, 'position', [0 10 1350 900]);
 %}
 
 %% continuous distribution change dataset
+% if you need the SSA algorithm, please download at http://mloss.org/revision/download/851/
 %{1
 mu = {[0,0],[0 3]};
 direc = {[0.3 1],[0.3 1];};
